@@ -1,172 +1,178 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .cont1 {
-    background-color: #121840;
-    height: 160px;
-    max-width: 90%;
-    margin: 10px auto;
-    display: flex;
-    justify-content: space-around;
-
+  background-color: #121840;
+  height: 160px;
+  max-width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 .left {
-    margin-top: 31px;
-    font-size: 35px;
-    font-weight: lighter;
-    color: #a2b2c5;
-    margin-left: 2px;
+  margin-top: 31px;
+  font-size: 35px;
+  font-weight: lighter;
+  color: #a2b2c5;
+  margin-left: 2px;
 }
 
 .right {
-    margin-top: 60px;
-    text-align: end;
-
+  margin-top: 60px;
+  text-align: end;
 }
 
 .right1 p {
-    color: #6f746f;
+  color: #6f746f;
 }
 
 .right2 ul {
-    display: flex;
-
+  display: flex;
 }
 
 .right2 ul li a {
-    text-decoration: none;
-    color: #a2b2c5;
+  text-decoration: none;
+  color: #a2b2c5;
 }
 
 .right2 ul li a:hover {
-    color: green;
-    cursor: pointer;
-
+  color: green;
+  cursor: pointer;
 }
 
-
 .right1 {
-    padding: 12px 13px;
-    font-size: 18px;
+  padding: 12px 13px;
+  font-size: 18px;
 }
 
 .right2 ul li {
-    list-style: none;
-    padding: 12px 13px;
-    font-size: 22px;
-    color: #a2b2c5;
-
+  list-style: none;
+  padding: 12px 13px;
+  font-size: 22px;
+  color: #a2b2c5;
 }
 
 .scont2 {
-    background-color: #c1c1ba;
-    height: 160px;
-    max-width: 90%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  background-color: #c1c1ba;
+  height: 160px;
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .scont2 h3 {
-    color: #6f6f6f;
-    font-size: 35px;
-    margin-bottom: 15px;
+  color: #6f6f6f;
+  font-size: 35px;
+  margin-bottom: 15px;
 }
 
 .scont2 p {
-    text-align: center;
-    color: #6a5d5d;
-
+  text-align: center;
+  color: #6a5d5d;
 }
 
 .map {
-    width: 80%;
-    margin: 10px auto;
-    /* background-color: #e4f1f1; */
+  width: 80%;
+  margin: 10px auto;
+  /* background-color: #e4f1f1; */
 }
 
 .audi {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
 }
 
-
-
 .mapcontent {
-    margin: 123px 98px 00px 10px;
+  margin: 123px 98px 00px 10px;
 }
 
 .mapcontent h3 {
-    /* margin: 123px 98px 44px 10px; */
-    font-size: 31px;
-    margin: 21px 0px;
-    color: gray;
-
+  /* margin: 123px 98px 44px 10px; */
+  font-size: 31px;
+  margin: 21px 0px;
+  color: gray;
 }
 
 .mapcontent p {
-    font-size: 22px;
-    margin: 1px 4px;
-    color: #616161;
-    line-height: 2;
-
+  font-size: 22px;
+  margin: 1px 4px;
+  color: #616161;
+  line-height: 2;
 }
 
 iframe {
-    margin: 119px 20px;
-    width: 558px;
-    height: 295px;
-    border: 2px solid rgb(215, 194, 194);
+  margin: 119px 20px;
+  width: 558px;
+  height: 295px;
+  border: 2px solid rgb(215, 194, 194);
 }
 
 .footer {
-    max-width: 90%;
-    margin: auto;
-    height: 140px;
-    margin-bottom: 10px;
-    background-color: #121840;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  max-width: 90%;
+  margin: auto;
+  height: 140px;
+  margin-bottom: 10px;
+  background-color: #121840;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .rightfooter ul {
-    display: flex;
-
+  display: flex;
 }
 
 .rightfooter ul li {
-    list-style: none;
-    padding: 12px 13px;
-    font-size: 22px;
-    color: #a2b2c5;
-
+  list-style: none;
+  padding: 12px 13px;
+  font-size: 22px;
+  color: #a2b2c5;
 }
 
 .leftfooter {
-
-    font-size: 18px;
-    font-weight: lighter;
-    color: #a2b2c5;
-    margin-left: 28px;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #a2b2c5;
+  margin-left: 28px;
 }
 
 .rightfooter ul li a {
-    text-decoration: none;
-    color: #a2b2c5;
+  text-decoration: none;
+  color: #a2b2c5;
 }
 
 .rightfooter ul li a:hover {
-
-    color: green;
-    cursor: pointer;
+  color: green;
+  cursor: pointer;
 }
 
 /* ----------- */
+@media (min-width: 375px) and (max-width: 667px) {
+  .cont1 {
+    flex-direction: column;
+    height: 329px;
+  }
+  .left {
+    margin-top: 2px;
+    font-size: 32px;
+    margin-left: 62px;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .right2 ul li {
+    padding: 45px 8px;
+    font-size: 12px;
+  }
+}

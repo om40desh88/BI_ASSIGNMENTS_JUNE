@@ -1,238 +1,247 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .cont1 {
-    background-color: #121840;
-    height: 160px;
-    max-width: 90%;
-    margin: 10px auto;
-    display: flex;
-    justify-content: space-around;
-
+  background-color: #121840;
+  height: 160px;
+  max-width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 .left {
-    margin-top: 31px;
-    font-size: 35px;
-    font-weight: lighter;
-    color: #a2b2c5;
-    margin-left: 2px;
+  margin-top: 31px;
+  font-size: 35px;
+  font-weight: lighter;
+  color: #a2b2c5;
+  margin-left: 2px;
 }
 
 .right {
-    margin-top: 60px;
-    text-align: end;
-
+  margin-top: 60px;
+  text-align: end;
 }
 
 .right1 p {
-    color: #6f746f;
+  color: #6f746f;
 }
 
 .right2 ul {
-    display: flex;
-
+  display: flex;
 }
 
 .right2 ul li a {
-    text-decoration: none;
-    color: #a2b2c5;
+  text-decoration: none;
+  color: #a2b2c5;
 }
 
 .right2 ul li a:hover {
-    color: green;
-    cursor: pointer;
-
+  color: green;
+  cursor: pointer;
 }
 
-
 .right1 {
-    padding: 12px 13px;
-    font-size: 18px;
+  padding: 12px 13px;
+  font-size: 18px;
 }
 
 .right2 ul li {
-    list-style: none;
-    padding: 12px 13px;
-    font-size: 22px;
-    color: #a2b2c5;
-
+  list-style: none;
+  padding: 12px 13px;
+  font-size: 22px;
+  color: #a2b2c5;
 }
 
 .scont2 {
-    background-color: #c1c1ba;
-    height: 160px;
-    max-width: 90%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  background-color: #c1c1ba;
+  height: 160px;
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .scont2 h3 {
-    color: #6f6f6f;
-    font-size: 35px;
-    margin-bottom: 15px;
+  color: #6f6f6f;
+  font-size: 35px;
+  margin-bottom: 15px;
 }
 
 .scont2 p {
-    text-align: center;
-    color: #6a5d5d;
-
+  text-align: center;
+  color: #6a5d5d;
 }
 
 /* --------------- */
 .rcont3 {
-
-    background-color: #e4f1f1;
-    /* height: 3000px; */
-    max-width: 80%;
-    margin: 10px auto;
-    display: flex;
-    flex-direction: column;
-
+  background-color: #e4f1f1;
+  /* height: 3000px; */
+  max-width: 80%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .rcont3inner {
-
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .rcont3left {
-    width: 50%;
+  width: 50%;
 }
 
 .rcont3left ul li {
-    line-height: 2;
-    font-size: 18px;
-    color: #525050;
+  line-height: 2;
+  font-size: 18px;
+  color: #525050;
 }
 
 .rcont3right {
-    width: 30%;
-    margin-top: 50px;
+  width: 30%;
+  margin-top: 50px;
 }
 
 .rcont3left h1 {
-    margin: 35px 0px 52px 73px;
-    color: #6a6a6a;
+  margin: 35px 0px 52px 73px;
+  color: #6a6a6a;
 }
 
 .rcont3left h3 {
-    margin: 46px 0px 8px 68px;
-    font-size: 20px;
-    color: #6a6a6a;
+  margin: 46px 0px 8px 68px;
+  font-size: 20px;
+  color: #6a6a6a;
 }
 
 .rcont3left p {
-    /* margin: 24px 0px 73px 69px;
+  /* margin: 24px 0px 73px 69px;
     font-size: 17px;
     text-align: left;
     color: #525050; */
 
-    margin: 24px 0px 73px 69px;
-    font-size: 18px;
-    text-align: left;
-    color: #525050;
-    line-height: 2;
+  margin: 24px 0px 73px 69px;
+  font-size: 18px;
+  text-align: left;
+  color: #525050;
+  line-height: 2;
 }
 
 .rcont3left h2 {
-    /* margin: 30px 0px 20px 20px; */
-    color: #6a6a6a;
-    margin: 46px 0px 8px 68px;
-    font-size: 24px;
-
+  /* margin: 30px 0px 20px 20px; */
+  color: #6a6a6a;
+  margin: 46px 0px 8px 68px;
+  font-size: 24px;
 }
 
 .rcont3left ul {
-    /* margin: 30px 0px 20px 20px; */
-    margin: 46px 0px 8px 96px;
-    font-size: 16px;
+  /* margin: 30px 0px 20px 20px; */
+  margin: 46px 0px 8px 96px;
+  font-size: 16px;
 }
 
 #name {
-    padding: 6px 46px;
-    margin: 6px 4px 46px 1px;
-    border-radius: 6px;
-    /* border-color: black; */
-    border: none;
+  padding: 6px 46px;
+  margin: 6px 4px 46px 1px;
+  border-radius: 6px;
+  /* border-color: black; */
+  border: none;
 }
 
 #email {
-    padding: 6px 46px;
-    margin: 6px 4px 46px 1px;
-    border-radius: 6px;
-    border: none;
+  padding: 6px 46px;
+  margin: 6px 4px 46px 1px;
+  border-radius: 6px;
+  border: none;
 }
 
 #select {
-    padding: 6px 16px;
-    margin: 6px 4px 46px 1px;
-    border-radius: 6px;
-    border: none;
+  padding: 6px 16px;
+  margin: 6px 4px 46px 1px;
+  border-radius: 6px;
+  border: none;
 }
 
 .rcont3right span {
-    color: gray;
-    font-size: 18px;
+  color: gray;
+  font-size: 18px;
 }
 
 .btn2 {
-    padding: 12px 30px;
-    margin: 31px 23px 76px 2px;
-    border-radius: 8px;
-    border-color: #d9b5b5;
-    background-color: #5a835b;
-    font-size: 18px;
-    font-weight: bolder;
-    color: #e8e8e8;
+  padding: 12px 30px;
+  margin: 31px 23px 76px 2px;
+  border-radius: 8px;
+  border-color: #d9b5b5;
+  background-color: #5a835b;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #e8e8e8;
 }
 
 .footer {
-    max-width: 90%;
-    margin: auto;
-    height: 140px;
-    margin-bottom: 10px;
-    background-color: #121840;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  max-width: 90%;
+  margin: auto;
+  height: 140px;
+  margin-bottom: 10px;
+  background-color: #121840;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .rightfooter ul {
-    display: flex;
-
+  display: flex;
 }
 
 .rightfooter ul li {
-    list-style: none;
-    padding: 12px 13px;
-    font-size: 22px;
-    color: #a2b2c5;
-
+  list-style: none;
+  padding: 12px 13px;
+  font-size: 22px;
+  color: #a2b2c5;
 }
 
 .leftfooter {
-
-    font-size: 18px;
-    font-weight: lighter;
-    color: #a2b2c5;
-    margin-left: 28px;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #a2b2c5;
+  margin-left: 28px;
 }
 
 .rightfooter ul li a {
-    text-decoration: none;
-    color: #a2b2c5;
+  text-decoration: none;
+  color: #a2b2c5;
 }
 
 .rightfooter ul li a:hover {
-
-    color: green;
-    cursor: pointer;
+  color: green;
+  cursor: pointer;
+}
+@media (min-width: 375px) and (max-width: 667px) {
+  .cont1 {
+    flex-direction: column;
+    height: 329px;
+  }
+  .left {
+    margin-top: 2px;
+    font-size: 32px;
+    margin-left: 62px;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .right2 ul li {
+    padding: 45px 8px;
+    font-size: 12px;
+  }
+  .scont2 {
+    height: 216px;
+  }
 }
